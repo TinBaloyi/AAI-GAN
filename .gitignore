@@ -1,0 +1,21 @@
+@"
+# data & outputs
+data/
+checkpoints/
+experiments/
+*.pt
+*.h5
+*.zip
+*.csv
+*.nii*
+
+# caches
+__pycache__/
+.ipynb_checkpoints/
+
+# local envs & IDE
+.venv/
+.env/
+.vscode/
+.idea/
+"@ | Out-File -Encoding utf8 .gitignore
